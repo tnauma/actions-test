@@ -15,6 +15,7 @@
         "symfony/yaml": "5.4.*"
     },
     "require-dev": {
+        "phpstan/phpstan": "^1.9"
     },
     "config": {
         "allow-plugins": {
@@ -54,7 +55,8 @@
         ],
         "post-update-cmd": [
             "@auto-scripts"
-        ]
+        ],
+        "phpstan": "phpstan"
     },
     "conflict": {
         "symfony/symfony": "*"
